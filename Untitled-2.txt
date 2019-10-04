@@ -1,0 +1,1 @@
+SELECT periods.name, elektro.counter FROM periods,elektro WHERE periods.id=elektro.period_id
